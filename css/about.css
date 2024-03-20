@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    gap: 50px;
+}
+
+main .card {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .card img{
+    width: 100%;
+}
+
+main .card .info {
+    width: 100%;
+    text-align: center;
+    background-color: #eee;
+}
+
+form {
+    width: 1000px;
+    margin-top: 70px;
+}
+
+.main-input {
+    width: calc(100% - 20px); /* Adjusting for padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+textarea.main-input {
+    height: 150px; /* Adjust height as needed */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your desired color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+}
